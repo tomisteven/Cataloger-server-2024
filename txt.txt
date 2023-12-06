@@ -1,0 +1,105 @@
+/* date: {
+    type: Date,
+    default: Date.now(),
+  },
+  rangoTurnos: [
+    {
+      limite: {
+        type: Number,
+        default: 0,
+      },
+      dia: String,
+      lista: [
+        {
+          horario: String,
+          estado: {
+            type: Boolean,
+            default: false,
+          },
+          cliente: String,
+          servicio: String,
+        },
+      ],
+    },
+  ],
+  services: [
+    {
+      name: String,
+      price: Number,
+      description: String,
+      time: String,
+      image: String,
+      category: String,
+      subcategory: String,
+      active: Boolean,
+    },
+  ],
+  diseño: [
+    {
+      titulo: String,
+      subtitulo: String,
+      btn_titulo: String,
+      logo: String,
+      itemsDescription: [
+        {
+          titulo: String,
+          subtitulo: String,
+        },
+      ],
+      footer: [
+        {
+          diasHorarios: [
+            {
+              dia: String,
+              horario: String,
+            },
+          ],
+          direccion: String,
+          telefono: String,
+        },
+      ],
+    },
+  ],
+  turnos: [
+    {
+      creacion: {
+        type: Date,
+        default: Date.now(),
+      },
+      fechaEjecucion: String,
+      horaEjecucion: String,
+      cliente: String,
+      servicio: String,
+      completado: {
+        type: Boolean,
+        default: false,
+      },
+    },
+  ],
+  clientes: [
+    {
+      name: String,
+      lastname: String,
+      email: String,
+      password: String,
+      phone: String,
+      address: String,
+      turnosActivos: [
+        {
+          creacion: {
+            type: Date,
+            default: Date.now(),
+          },
+          fechaEjecucion: String,
+          horaEjecucion: String,
+          servicio: String,
+          completado: {
+            type: Boolean,
+            default: false,
+          },
+        },
+      ],
+      turnosHistorial: [{}],
+      active: Boolean,
+    },
+  ], */
